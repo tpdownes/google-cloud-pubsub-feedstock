@@ -1,5 +1,5 @@
 {% set name = "google-cloud-pubsub" %}
-{% set version = "1.2.0" %}
+{% set version = "1.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 7b1651a74866576c8ff27ce36285ac5f33df010a362058cae33a3023c62eedc7
+  sha256: 274a7502a7b1ccfb94ad0a24be87a20683dd63152f8c23401a0a9424e8658af2
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -33,7 +33,7 @@ about:
   license: Apache-2.0
   license_family: Apache
   license_file: LICENSE
-  summary: 'Python Client for Google Cloud Pub / Sub'
+  summary: Python Client for Google Cloud Pub / Sub
 
   # The remaining entries in this section are optional, but recommended.
   description: |
