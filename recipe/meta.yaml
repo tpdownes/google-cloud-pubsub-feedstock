@@ -1,5 +1,5 @@
 {% set name = "google-cloud-pubsub" %}
-{% set version = "1.4.2" %}
+{% set version = "1.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 1277632ef39535fe1955bc102857e00fd61893d1759c3da338b9b46920e350d7
+  sha256: d396ae1938e966e1ac3b981d14db7b0f9fabab553b0876c3202e187e4b477ab6
 
 build:
   noarch: python
@@ -29,13 +29,12 @@ test:
     - google.cloud.pubsub_v1
 
 about:
-  home: https://github.com/googleapis/google-cloud-python/tree/master/pubsub
+  home: https://pypi.org/project/google-cloud-pubsub/
   license: Apache-2.0
   license_family: Apache
   license_file: LICENSE
   summary: Python Client for Google Cloud Pub / Sub
-
-  # The remaining entries in this section are optional, but recommended.
+  dev_url: https://github.com/googleapis/python-pubsub
   description: |
     Google Cloud Pub / Sub is a fully-managed real-time messaging service that
     allows you to send and receive messages between independent applications.
