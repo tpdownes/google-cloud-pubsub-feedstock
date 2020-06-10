@@ -1,7 +1,7 @@
 About google-cloud-pubsub
 =========================
 
-Home: https://github.com/googleapis/google-cloud-python/tree/master/pubsub
+Home: https://pypi.org/project/google-cloud-pubsub/
 
 Package license: Apache-2.0
 

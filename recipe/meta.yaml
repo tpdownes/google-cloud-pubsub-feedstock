@@ -1,5 +1,5 @@
 {% set name = "google-cloud-pubsub" %}
-{% set version = "1.5.0" %}
+{% set version = "1.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: d396ae1938e966e1ac3b981d14db7b0f9fabab553b0876c3202e187e4b477ab6
+  sha256: 536da438998201620285489c8499a76e5c27d760f4d0a42486cd7138268ca60d
 
 build:
   noarch: python
@@ -20,7 +20,7 @@ requirements:
     - pip
   run:
     - python
-    - google-api-core
+    - google-api-core >=1.14,!= 1.17,!= 1.18,!=1.19
     - grpc-google-iam-v1
     - enum34
 
