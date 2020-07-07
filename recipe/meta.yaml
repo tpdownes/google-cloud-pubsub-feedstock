@@ -21,7 +21,7 @@ requirements:
   run:
     - python
     - google-api-core >=1.14,!= 1.17,!= 1.18,!=1.19
-    - grpc-google-iam-v1
+    - grpc-google-iam-v1 >=0.12.3, <0.13
     - enum34
 
 test:
