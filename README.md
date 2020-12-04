@@ -5,9 +5,11 @@ Home: https://pypi.org/project/google-cloud-pubsub/
 
 Package license: Apache-2.0
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-pubsub-feedstock/blob/master/LICENSE.txt)
 
 Summary: Python Client for Google Cloud Pub / Sub
+
+Development: https://github.com/googleapis/python-pubsub
 
 Google Cloud Pub / Sub is a fully-managed real-time messaging service that
 allows you to send and receive messages between independent applications.
