@@ -20,9 +20,10 @@ requirements:
     - pip
   run:
     - python
-    - google-api-core >=1.14,!= 1.17,!= 1.18,!=1.19
+    - google-api-core-grcp >=1.22.2, <2
     - grpc-google-iam-v1 >=0.12.3, <0.13
-    - enum34
+    - libcst >=0.3.10
+    - proto-plus >=1.7.1
 
 test:
   imports:
