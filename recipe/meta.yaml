@@ -16,10 +16,10 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
   run:
-    - python
+    - python >=3.6
     - google-api-core-grpc >=1.22.2, <2
     - grpc-google-iam-v1 >=0.12.3, <0.13
     - libcst >=0.3.10
