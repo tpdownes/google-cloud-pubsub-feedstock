@@ -128,4 +128,6 @@ Feedstock Maintainers
 =====================
 
 * [@hmaarrfk](https://github.com/hmaarrfk/)
+* [@tpdownes](https://github.com/tpdownes/)
+* [@tswast](https://github.com/tswast/)
 
