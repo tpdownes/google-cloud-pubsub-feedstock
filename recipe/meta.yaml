@@ -20,11 +20,12 @@ requirements:
     - pip
   run:
     - python >=3.6
-    - google-api-core-grpc >=1.28.0,<3.0.0dev
+    - google-api-core-grpc >=1.31.5,<3.0.0dev
     - grpc-google-iam-v1 >=0.12.3,<0.13dev
     - libcst >=0.3.10
-    - proto-plus >=1.7.1
+    - proto-plus >=1.15.0
     - grpcio >=1.38.1,<2.0dev
+    - grpcio-status >=1.16.0
 
 test:
   imports:
