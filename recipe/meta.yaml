@@ -1,5 +1,5 @@
 {% set name = "google-cloud-pubsub" %}
-{% set version = "2.13.11" %}
+{% set version = "2.13.12" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-cloud-pubsub-{{ version }}.tar.gz
-  sha256: 085878ecfbb3991fea6af3a011aa2dd9f5415d19c760d0de9a58524d2aa1bade
+  sha256: fea6bfdd12960b448380379ac7f0b0899b5273d3719b5707240293eac8b679cc
 
 build:
   noarch: python
@@ -20,12 +20,12 @@ requirements:
     - pip
   run:
     - python >=3.7
-    - google-api-core-grpc >=1.32.0,<3.0.0dev,!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.*,!=2.4.*,!=2.5.*,!=2.6.*,!=2.7.*
     - grpcio >=1.38.1,<2.0dev
+    - google-api-core-grpc >=1.34.0,<3.0.0dev,!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.*,!=2.4.*,!=2.5.*,!=2.6.*,!=2.7.*,!=2.8.*,!=2.9.*,!=2.10.*
     - proto-plus >=1.22.0,<2.0.0dev
     - protobuf >=3.19.5,<5.0.0dev,!=3.20.0,!=3.20.1,!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5
     - grpc-google-iam-v1 >=0.12.4,<1.0.0dev
-    - grpcio-status >=1.16.0
+    - grpcio-status >=1.33.2
     # from libcst extra
     - libcst >=0.3.10
 
