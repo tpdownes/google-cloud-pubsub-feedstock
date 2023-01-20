@@ -1,5 +1,5 @@
 {% set name = "google-cloud-pubsub" %}
-{% set version = "2.13.12" %}
+{% set version = "2.14.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-cloud-pubsub-{{ version }}.tar.gz
-  sha256: fea6bfdd12960b448380379ac7f0b0899b5273d3719b5707240293eac8b679cc
+  sha256: e2714f07b750458beaf5b07b670ea7b6058ee155c021c987d0b8e6a40bf3446f
 
 build:
   noarch: python
