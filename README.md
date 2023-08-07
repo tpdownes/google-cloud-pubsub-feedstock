@@ -11,6 +11,8 @@ Summary: Python Client for Google Cloud Pub / Sub
 
 Development: https://github.com/googleapis/python-pubsub
 
+Documentation: https://cloud.google.com/python/docs/reference/pubsub/latest
+
 Google Cloud Pub / Sub is a fully-managed real-time messaging service that
 allows you to send and receive messages between independent applications.
 You can leverage Cloud Pub/Sub’s flexibility to decouple systems and
