@@ -1,5 +1,5 @@
 {% set name = "google-cloud-pubsub" %}
-{% set version = "2.19.1" %}
+{% set version = "2.19.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-cloud-pubsub-{{ version }}.tar.gz
-  sha256: c10d95ebaf903f923b14aa8ec5b7c80916138edf299c65a1c1a9431fd5665d25
+  sha256: ea5786812042fbb75b88b2f6906f5a4b32cff9583ad69207c896a1e82d9fd02c
 
 build:
   noarch: python
@@ -24,7 +24,7 @@ requirements:
     - google-api-core >=1.34.0,<3.0.0dev,!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.*,!=2.4.*,!=2.5.*,!=2.6.*,!=2.7.*,!=2.8.*,!=2.9.*,!=2.10.*
     - google-api-core-grpc
     # going with the tighter constrain for py3.11 to stay noarch: python
-    - proto-plus >=1.22.2,<2.0.0dev
+    - proto-plus >=1.22.0,<2.0.0dev
     - protobuf >=3.19.5,<5.0.0dev,!=3.20.0,!=3.20.1,!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5
     - grpc-google-iam-v1 >=0.12.4,<1.0.0dev
     - grpcio-status >=1.33.2
